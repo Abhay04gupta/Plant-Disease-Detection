@@ -1,4 +1,4 @@
-# Plant Disease Detection Model
+# Plant Disease Detection
 
 This repository contains a model for detecting plant diseases by training on a large dataset of plant images. The project leverages both custom-built CNN architectures and fine-tuned pre-trained models to achieve high accuracy in classifying various plant diseases.
 
