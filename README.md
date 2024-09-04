@@ -43,19 +43,11 @@ Ensure you have the following dependencies installed:
 The training process involved developing and fine-tuning models on the plant disease dataset.
 
 Steps:
-- Data Preprocessing:
+- Data Preprocessing: Images were resized, normalized, and augmented to create a robust dataset.
 
-Images were resized, normalized, and augmented to create a robust dataset.
+-Custom CNN Training: A custom CNN model was trained from scratch on the pre-processed dataset.
 
--Custom CNN Training:
+-Pre-trained Model Fine-Tuning: Pre-trained models (VGG16, ResNET50, DenseNET201, InceptionV3) were fine-tuned on the dataset to enhance performance.
 
-A custom CNN model was trained from scratch on the pre-processed dataset.
-
--Pre-trained Model Fine-Tuning:
-
-Pre-trained models (VGG16, ResNET50, DenseNET201, InceptionV3) were fine-tuned on the dataset to enhance performance.
-
--Evaluation:
-
-The models were evaluated on the test set to determine their accuracy, with InceptionV3 achieving the highest accuracy.
+-Evaluation: The models were evaluated on the test set to determine their accuracy, with InceptionV3 achieving the highest accuracy.
 
