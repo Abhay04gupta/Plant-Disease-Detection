@@ -1,5 +1,6 @@
 ##Plant Disease Detection Model
-Overview
+
+**Overview**
 This project involves building a robust plant disease detection model using a dataset of 50,000 images across 38 distinct disease classes. The goal is to accurately identify diseases in plants through image classification.
 
 **Dataset**
