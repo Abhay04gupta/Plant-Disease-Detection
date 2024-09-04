@@ -40,15 +40,23 @@ Ensure you have the following dependencies installed:
 
 ## Training
 
-The training process involved developing and fine-tuning models on the plant disease dataset.
+The training process involved fine-tuning a pre-trained Hugging Face model on the English-Hindi translation dataset.
 
-**Steps**:
+### Steps:
+1. **Data Preprocessing:**
+   - Images were resized, normalized, and augmented to create a robust dataset.
+   
+2. **Custom CNN Training:**
+   - A custom CNN model was trained from scratch on the pre-processed dataset.
+     
+3. **Pre-trained Model Fine-Tuning:**
+   - Pre-trained models (VGG16, ResNET50, DenseNET201, InceptionV3) were fine-tuned on the dataset to enhance performance.
+   
+4. **Evaluation:**
+   - The models were evaluated on the test set to determine their accuracy, with InceptionV3 achieving the highest accuracy.
 
-**1) Data Preprocessing**: Images were resized, normalized, and augmented to create a robust dataset.
+## Results
 
-**2) Custom CNN Training**: A custom CNN model was trained from scratch on the pre-processed dataset.
-
-**3) Pre-trained Model Fine-Tuning**: Pre-trained models (VGG16, ResNET50, DenseNET201, InceptionV3) were fine-tuned on the dataset to enhance performance.
-
-**4) Evaluation**: The models were evaluated on the test set to determine their accuracy, with InceptionV3 achieving the highest accuracy.
-
+- **Custom CNN Model:** Achieved an accuracy of 88.2%.
+- **Best Pre-trained Model (InceptionV3)**: Achieved an accuracy of 92.8%.
+- The model is capable of accurately classifying plant diseases across 38 classes, making it a valuable tool for agricultural diagnostics.
